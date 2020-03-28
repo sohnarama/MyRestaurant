@@ -1,0 +1,28 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>ajouterPlat</ion-title>
+      <ion-buttons slot="start">
+        <ion-back-button defaultHref="" text="BACK"></ion-back-button>
+      </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  <p>Ajouter un nouveau plat</p>
+
+  <form [formGroup]="ajoutplatForm" (submit)="Ajouter(ajoutplatForm.value)">
+    <ion-item>
+      <ion-label>Nom</ion-label>
+      <ion-input type="text" formControlName="nom" ></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label>Prix</ion-label>
+      <ion-input type="number"  formControlName="prix" n></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label>Description</ion-label>
+      <ion-textarea  formControlName="description"></ion-textarea>
+    </ion-item>
+    <button ion-button type="submit" expand="full" >Ajouter</button>
+</form>
+</ion-content>

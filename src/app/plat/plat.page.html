@@ -1,0 +1,32 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      plat
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">plat</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <ion-fab vertical="bottom" horizontal="end" slot="fixed"> 
+    <ion-fab-button routerLink="/ajouterplats" routerDirection="forward"> 
+      <ion-icon name="Ajouterplat"></ion-icon>Ajouterplat  
+    </ion-fab-button> 
+     </ion-fab>
+     <div> 
+      <ion-list> 
+        <ion-item *ngFor="let plat of plats">
+         <ion-label>{{plat.nom}}</ion-label> 
+         <ion-label>{{plat.prix}}</ion-label> 
+          <ion-icon name="create" color="warning" (click)="modifierPlat (plat.id)"></ion-icon> 
+          <ion-icon name="trash" color="danger" (click)="delete(plat)"></ion-icon> 
+        </ion-item>
+    </ion-list>
+    </div>
+  <app-explore-container name="plat"></app-explore-container>
+</ion-content>-
+

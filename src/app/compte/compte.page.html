@@ -1,0 +1,27 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      compte
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">compte</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <app-explore-container name="compte"></app-explore-container>
+  
+  <ion-fab vertical="bottom"  slot="fixed" > 
+      <ion-fab-button routerLink="/login" routerDirection="forward"> 
+        <ion-icon name="Seconnecter"></ion-icon>Connexion 
+      </ion-fab-button> 
+
+      <ion-fab-button routerLink="/register" routerDirection="forward"> 
+        <ion-icon name="Sincrire"></ion-icon>Insription 
+      </ion-fab-button>  
+  </ion-fab>
+
+</ion-content>

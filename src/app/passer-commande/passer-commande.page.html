@@ -1,0 +1,25 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>PasserCommande</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <form [formGroup]="registerForm" (submit)="register(registerForm.value)"> 
+    <ion-list>
+    <ion-item> 
+      <ion-label position="stacked">libellé de la commande</ion-label> 
+      <ion-input formControlName="libelle"></ion-input>
+     </ion-item> 
+     <ion-item> 
+       <ion-label position="stacked">nombre de plats</ion-label> 
+       <ion-input formControlName="nombredeplat" type="number"></ion-input> 
+      </ion-item> 
+      <ion-item> 
+        <ion-label position="stacked">Plat du jour </ion-label> 
+        <ion-input t formControlName="password" type="password"></ion-input>
+       </ion-item> 
+      </ion-list>
+       <ion-button type="submit" expand="full">Commander</ion-button>
+   </form>
+</ion-content>
