@@ -1,9 +1,9 @@
-# MyRestaurant
+# MyRestaurant RAMATOULAYE DIAGNE 
+
 application mobile de gestion de commandes  des employés dans le restaurant d'une entreprise
 intaller le derniere version de  node js avec l'utilitaire npm 
  	node -- version
 	npm --version
-
 installer ionic avec la commande 
 	npm install -g ionic 
 creer une application ionic avec l'option tabs 
@@ -39,5 +39,5 @@ copier le dossier  android et ios aussi
 
 pour tester l'application il f	ut installer un JDK 8
 Ensuite, téléchargez et installez Android Studio, disponible sur https://developer.android.com/studio/index.html
-Il vous faut quelques packages spécifiques du SDK Android.  Lancez Android Studio et, dans le menu Co nfigure, choisissez SDK Ma nager
+Il vous faut quelques packages spécifiques du SDK Android.  Lancez Android Studio et, dans le menu Co nfigure, choisissez SDK Manager
 tester votre application sur un device Android.  En branchant votre device, pensez à activer le déboggage USB et vous le verrez apparaître dans la fenêtre qui s'ouvre en cliquant sur le bouton Lecture 
