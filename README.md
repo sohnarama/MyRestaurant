@@ -28,3 +28,12 @@ Les fontionalités de l'administrateur
 crrer une communication avec les webservices 
 nous utilisons en backend STRAPI 
 *il faut changer la chemin de l'URL et ajour l'adresse de l'API "http://localhost:1337/admin"
+pour tester l'application lancer d'abord le serveur strapi
+pui executer la commande ionic serve ve dans le repertoire du projet 
+mais cela ne suffit il faut le tester aumoins dans un emulateur 
+nous allons le tester sur android par exemple 
+les plugins natives sont installer dans le projet  avec capacitor: on utilise la commande 
+"ionic integrations enable capacitor"
+copier les dossier www  dans le projet qui comporte le build 
+copier le dossier  android et ios aussi 
+pour tester l'application il f	ut installer un JDK 8
