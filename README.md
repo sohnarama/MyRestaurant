@@ -36,4 +36,8 @@ les plugins natives sont installer dans le projet  avec capacitor: on utilise la
 "ionic integrations enable capacitor"
 copier les dossier www  dans le projet qui comporte le build 
 copier le dossier  android et ios aussi 
+
 pour tester l'application il f	ut installer un JDK 8
+Ensuite, téléchargez et installez Android Studio, disponible sur https://developer.android.com/studio/index.html
+Il vous faut quelques packages spécifiques du SDK Android.  Lancez Android Studio et, dans le menu Co nfigure, choisissez SDK Ma nager
+tester votre application sur un device Android.  En branchant votre device, pensez à activer le déboggage USB et vous le verrez apparaître dans la fenêtre qui s'ouvre en cliquant sur le bouton Lecture 
